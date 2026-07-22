@@ -137,6 +137,7 @@ Enter Description: Lunch
 ## 👨‍💻 Author
 
 **Veeresh Kallapally**
-
+* GitHub: [@veereshkallapally555-maker](https://github.com/veereshkallapally555-maker)
+* LinkedIn: [Veeresh Kallapally](https://www.linkedin.com/in/veeresh-kallapally-a87164390/)
 
 If you found this project helpful, consider giving it a ⭐ on GitHub.
