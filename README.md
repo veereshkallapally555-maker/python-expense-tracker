@@ -1,143 +1,144 @@
-# 💰 Expense Tracker
+# 💰 Python Expense Tracker
 
-A modern command-line Expense Tracker built with Python that helps users manage daily expenses efficiently. The application stores data permanently using JSON, allowing users to track expenses even after closing the program.
+A Python command-line Expense Tracker that allows users to add, view, search, delete, and summarize expenses.
+
+The project uses JSON file storage to keep expense data available between program runs.
 
 ---
 
 ## ✨ Features
 
-- ➕ Add new expenses
-- 📋 View all expenses
-- 🔍 Search expenses by category
-- 🗑️ Delete expenses
-- 💾 Automatic JSON data storage
-- 🔄 Persistent data across program runs
-- ⚠️ Input validation and error handling
-- 🖥️ Simple and user-friendly CLI
+* ➕ Add expenses
+* 👀 View all expenses
+* 🔍 Search expenses by category
+* 🗑️ Delete expenses
+* 📊 View expense summary
+* 💾 Store data using JSON
+* ✅ Input validation
+* 🔢 Calculate total number of expenses
+* 💰 Calculate total amount spent
+* 🖥️ Interactive command-line interface
 
 ---
 
-## 🛠️ Technologies Used
+## 📊 Expense Summary
 
-- Python 3
-- JSON
-- File Handling
-- Exception Handling
-- Functions
-- Lists & Dictionaries
-- Git & GitHub
+The summary displays:
 
----
+* Total number of expenses
+* Total amount spent
 
-## 📂 Project Structure
+Example:
 
-```
-expense_tracker/
-│
-├── expense_tracker.py
-├── expenses.json
-├── README.md
-└── .gitignore
+```text
+=== Expense Summary ===
+Total Expenses: 3
+Total Amount  : ₹400.00
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🗂️ Data Storage
 
-### Clone the repository
+Expenses are stored in:
 
-```bash
-git clone https://github.com/your-username/python-expense-tracker.git
+```text
+expenses.json
 ```
 
-### Navigate to the project
-
-```bash
-cd python-expense-tracker
-```
-
-### Run the application
-
-```bash
-python expense_tracker.py
-```
-
----
-
-## 📸 Sample Output
-
-```
-====== Expense Tracker ======
-
-1. Add Expense
-2. View Expenses
-3. Search Expense
-4. Delete Expense
-5. Exit
-
-Enter Choice: 1
-
-Enter Category: Food
-Enter Amount: 250
-Enter Description: Lunch
-
-✅ Expense Added Successfully!
-```
-
----
-
-## 📄 Example expenses.json
+Example:
 
 ```json
 [
     {
         "category": "Food",
-        "amount": 250,
+        "amount": 250.0,
         "description": "Lunch"
     },
     {
         "category": "Travel",
-        "amount": 500,
-        "description": "Bus Ticket"
-    },
-    {
-        "category": "Shopping",
-        "amount": 1500,
-        "description": "Shoes"
+        "amount": 100.0,
+        "description": "Bus"
     }
 ]
 ```
 
 ---
 
-## 🎯 Skills Demonstrated
+## 🚀 How to Run
 
-- Python Programming
-- File Handling
-- JSON Serialization
-- Exception Handling
-- Data Structures
-- Command Line Applications
-- Version Control with Git
-- GitHub Project Management
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/veereshkallapally555-maker/python-expense-tracker.git
+```
+
+### 2. Open the project
+
+Open the project folder in VS Code.
+
+### 3. Run the program
+
+```bash
+py expense_tracker.py
+```
+
+---
+
+## 🖥️ Menu
+
+```text
+=== Expense Tracker ===
+1. Add Expense
+2. View Expenses
+3. Search Expense
+4. Delete Expense
+5. Show Summary
+6. Exit
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* JSON
+* File Handling
+
+---
+
+## 📚 Concepts Demonstrated
+
+* Variables
+* Lists
+* Dictionaries
+* Functions
+* Loops
+* Conditional statements
+* Exception handling
+* Input validation
+* JSON serialization
+* File handling
+* List comprehensions
+* Basic calculations
 
 ---
 
 ## 🔮 Future Improvements
 
-- Edit existing expenses
-- Monthly expense reports
-- Expense categories with totals
-- CSV & Excel export
-- Graphical User Interface (Tkinter)
-- SQLite Database Support
+* Monthly expense reports
+* Category-wise spending summary
+* Date tracking
+* SQLite database
+* Data visualization
+* Unit tests
+* Graphical user interface
 
 ---
 
 ## 👨‍💻 Author
 
 **Veeresh Kallapally**
-* GitHub: [@veereshkallapally555-maker](https://github.com/veereshkallapally555-maker)
-* LinkedIn: [Veeresh Kallapally](https://www.linkedin.com/in/veeresh-kallapally-a87164390/)
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+* GitHub: https://github.com/veereshkallapally555-maker
+* LinkedIn: https://www.linkedin.com/in/veeresh-kallapally-a87164390/
